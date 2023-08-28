@@ -3,11 +3,12 @@
 This project contains a web scraper functionaly that navigates to prompthero.com and extracts data from the site. It also has the automated test suite that verifies the accuracy of the scrapper.  
 
 # 2. Approach Followed:
-There are multiptle ways to develop a webscraper. Here a simple pytest program is written using selenium web driver for web scraping. This project contains the webscraper and a test suite that verifies the extracted data. 
+There are multiptle ways to develop a webscraper. Here is a simple python program is written using selenium web driver for web scraping.The scraped data is stored in a sepaarte file and used pytest to validate the extracted data with the actual data. I have generated a html report using pytest-html
 
 ## 2.1. Web Scrapper Functionality
 The web scraper performs the following actions:
 - Navigates to prompthero.com.
+- searches for a prompt
 - Clicks on a post.
 - Once on the post’s page, the scraper extracts the following details:
 	- Image links
@@ -57,7 +58,8 @@ You can install these libraries easily by running the following command:
 ## 3.3 Executing the project:
 Naviagte to the directory where the repository is cloned and run the *pytest* command to execute the project.
 
-# 4. Challenges faced & solution applied:
+# 4. Challenges faced & solution applied:  
+
 ## 4.1. Challenge: No unique IDs
 ### 4.1.1 Challenges Description: 
 For some web elements ID locator is available but its not unique and more than one web element with same ID is available.
