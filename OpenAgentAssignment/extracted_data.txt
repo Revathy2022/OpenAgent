@@ -1,0 +1,14 @@
+***********Open Agent WebScraper for Prompthero!!********
+
+***********The Extracted Details as per the given Assignment are*********
+
+Current Link is: https://prompthero.com/prompt/4ae9caa7ad7
+
+Username : DameVee
+
+Prompt Content: darkness,scary,atmospheric
+
+Generation Parameter: 512x512  254672  7.0  20  DDIM
+
+Model Used: Openjourney 4
+
