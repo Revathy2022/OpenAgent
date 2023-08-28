@@ -36,8 +36,8 @@ To run the tests, use the *pytest* command.
 ## 3.1 Install Python and Libraries:
 ### 3.1.1. To get started with this project, you will need to have Python 3 installed on your computer. You will need an IDE to perform the testing process.Pycharm is a preferred one. You will also need to install the following libraries:
 
-  	⦁	Selenium  
-	  ⦁	pytest  
+  	  ⦁  Selenium  
+	  ⦁  pytest  
 	  ⦁  pytest-html       
                                                                                                                                                   
 ### 3.1.2 How to Install:
