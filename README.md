@@ -1,9 +1,9 @@
 # 1. Introduction
 ## 1.1. Web Scraper for PromptHero
-This project contains a web scraper functionaly that navigates to prompthero.com and extracts data from the site. It also has the automated test suite that verifies the accuracy of the scrapper.  
+This project contains a web scraper functionalty that navigates to prompthero.com and extracts data from the site. It also has the automated test suite that verifies the accuracy of the scrapper.  
 
 # 2. Approach Followed:
-There are multiptle ways to develop a webscraper. Here is a simple python program is written using selenium web driver for web scraping.The scraped data is stored in a sepaarte file and used pytest to validate the extracted data with the actual data. I have generated a html report using pytest-html
+There are multiptle ways to develop a webscraper. Here is a simple python program is written using selenium web driver for web scraping.The scraped data is stored in a seperate file and used pytest to validate the extracted data with the actual data. I have generated a html report using pytest-html
 
 ## 2.1. Web Scrapper Functionality
 The web scraper performs the following actions:
@@ -20,7 +20,7 @@ The web scraper performs the following actions:
 ## 2.2. Test Suite:  
 
 Following packages are imported Pyest,self,Selenium Web Diver, Service, ChromeDriverManager, By, time, random.
-test_webscraper.py is a name of the python testsuite file here and it has following test functions 
+**test_webscraper**.py is a name of the python testsuite file here and it has following test functions 
 def testlogin(): Performs Login function in the web page. 
 def testsearch(): performs Search Operation to serach the required imge. 
 def testextracturl(): Extracts url of the navigated page. 
