@@ -20,13 +20,13 @@ The web scraper performs the following actions:
 ## 2.2. Test Suite:  
 
 Following packages are imported Pyest,self,Selenium Web Diver, Service, ChromeDriverManager, By, time, random.
-**test_webscraper**.py is a name of the python testsuite file here and it has following test functions 
-def testlogin(): Performs Login function in the web page. 
-def testsearch(): performs Search Operation to serach the required imge. 
-def testextracturl(): Extracts url of the navigated page. 
-def testextractusername(): Extracts the username.
-deftestpromptdescription(): Extracts the prompt Description.
-deftestgenerationparameters(): Extracts the generation parameters. 
+**test_webscraper**.py is a name of the python testsuite file here and it has following test functions  
+def testlogin(): Performs Login function in the web page.  
+def testsearch(): performs Search Operation to serach the required imge.  
+def testextracturl(): Extracts url of the navigated page.  
+def testextractusername(): Extracts the username.  
+deftestpromptdescription(): Extracts the prompt Description.  
+deftestgenerationparameters(): Extracts the generation parameters.  
 def testmodelused():Extrcats the Model Used.
 
 ## 2.3. Testing with Pytest
