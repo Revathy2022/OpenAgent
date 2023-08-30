@@ -19,7 +19,7 @@ The web scraper performs the following actions:
 
 ## 2.2. Test Suite:  
 
-Following packages are imported Pyest,self,Selenium Web Diver, Service, ChromeDriverManager, By, time, random.
+Following packages are imported Pyest,self,Selenium Web Diver, Service, ChromeDriverManager, By, time, random.  
 **test_webscraper**.py is a name of the python testsuite file here and it has following test functions  
 def testlogin(): Performs Login function in the web page.  
 def testsearch(): performs Search Operation to serach the required imge.  
